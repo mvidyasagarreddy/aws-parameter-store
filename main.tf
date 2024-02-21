@@ -29,8 +29,8 @@ variable "params" {
     {name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.roboshopai.online:8080", type = "String"},
     {name = "roboshop.dev.shipping.db_host", value = "mysql-dev.roboshopai.online", type = "String"},
     {name = "roboshop.dev.user.mongo", value = "true", type = "String"},
-    {name = "roboshop.dev.user.redis_host", value = "redis-{{env}}.roboshopai.online", type = "String"},
-    {name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-{{env}}.roboshopai.online:27017/users", type = "String"},
+    {name = "roboshop.dev.user.redis_host", value = "redis-dev.roboshopai.online", type = "String"},
+    {name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.roboshopai.online:27017/users", type = "String"},
 
 
     ### Passwords are never stored as part of git repos. These will provisioned by those who have access in param store.
