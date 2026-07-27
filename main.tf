@@ -7,11 +7,11 @@ resource "aws_ssm_parameter" "params" {
 
 variable "params" {
     default = [
-        {name = "roboshop.dev.frontend.catalogue_url",value = "http://catalogue-dev.roboshop.blog:8080",type = "String"},
-        {name = "roboshop.dev.frontend.user_url",value = "http://user-dev.roboshop.blog:8080",type = "String"},
-        {name = "roboshop.dev.frontend.cart_url",value = "http://cart-dev.roboshop.blog:8080",type = "String"},
-        {name = "roboshop.dev.frontend.shipping_url",value = "http://shipping-dev.roboshop.blog:8080",type = "String"},
-        {name = "roboshop.dev.frontend.payment_url",value = "http://payment-dev.roboshop.blog:8080",type = "String"},
+        {name = "roboshop.dev.frontend.catalogue_url",value = "http://catalogue-dev.roboshop.blog",type = "String"},
+        {name = "roboshop.dev.frontend.user_url",value = "http://user-dev.roboshop.blog",type = "String"},
+        {name = "roboshop.dev.frontend.cart_url",value = "http://cart-dev.roboshop.blog",type = "String"},
+        {name = "roboshop.dev.frontend.shipping_url",value = "http://shipping-dev.roboshop.blog",type = "String"},
+        {name = "roboshop.dev.frontend.payment_url",value = "http://payment-dev.roboshop.blog",type = "String"},
         {name = "roboshop.dev.cart.redis_host",value = "http://redis-dev.roboshop.blog",type = "String"},
         {name = "roboshop.dev.cart.catalogue_host",value = "http://catalogue-dev.roboshop.blog",type = "String"},
         {name = "roboshop.dev.cart.catalogue_port",value = "8080",type = "String"},
